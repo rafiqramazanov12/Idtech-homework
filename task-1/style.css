@@ -9,7 +9,6 @@
     background-color:aqua;
     margin-top: 40px;
     margin-left: 60px;
-  
     display: flex;
    
     
@@ -46,6 +45,10 @@
 .right h2{
     text-align: center;
     font-size: 40px;
+
+}
+.right p{
+    padding-left: 30px;
 }
 .parent{
     padding-left: 30px;
