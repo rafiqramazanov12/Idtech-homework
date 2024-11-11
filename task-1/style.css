@@ -9,8 +9,7 @@
     background-color:aqua;
     margin-top: 40px;
     margin-left: 60px;
-    padding-left: 40px;
-    padding-top: 30px;
+  
     display: flex;
    
     
@@ -20,7 +19,9 @@
     height: 500px;
     background-color:blue;
    text-align: center;
-   
+   margin-top: 40px;
+   margin-left: 60px;
+
    
 }
 .left h3{
@@ -37,6 +38,8 @@
     width: 500px;
     height: 500px;
     background-color: white;
+    margin-top: 40px;
+   margin-right: 60px;
 
 
 }
