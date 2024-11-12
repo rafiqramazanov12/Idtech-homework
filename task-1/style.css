@@ -10,6 +10,7 @@
     margin-top: 40px;
     margin-left: 60px;
     display: flex;
+    
    
     
 }
@@ -17,9 +18,10 @@
     width: 500px;
     height: 500px;
     background-color:blue;
-   text-align: center;
-   margin-top: 40px;
+    text-align: center;
+    text-align: center;
    margin-left: 60px;
+   margin-top: 40px;
 
    
 }
@@ -38,7 +40,7 @@
     height: 500px;
     background-color: white;
     margin-top: 40px;
-   margin-right: 60px;
+   display: inline-block;
 
 
 }
