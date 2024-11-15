@@ -28,6 +28,7 @@
    vertical-align: top;
    font-size: 16px;
    display: inline-block;
+   border-radius: 20px;
   
 
    
@@ -38,6 +39,7 @@
     color: white;
     padding-top: 100px;
     font-family: "Roboto", sans-serif;
+    
 }
 .left p{
     color: white;
@@ -50,6 +52,7 @@
     margin-top: 40px;
    display: inline-block;
    vertical-align: top;
+   border-radius: 20px;
   
 
 }
@@ -60,13 +63,15 @@
     font-weight:900;
 
 }
-.right p{
+.right span{
     padding-left: 30px;
     color: black;
+    font-size: 14px;
+    padding-top: ;
+
 }
 .parent{
     padding-left: 30px;
-    padding-top: 20px;
 }
  .parent input{
     width: 200px;
@@ -78,6 +83,8 @@
  }
  .form_group input{
     margin-top: 20px;
+    background-color: #eeeeee;
+    border: none;
  }
 
  .btn{
@@ -88,9 +95,13 @@
     padding: 10px;
     margin: 10px;
     text-align: center;
-    color: white;
+    color: #fff;
  }
  .form_group textarea{
     margin-top: 20px;
     padding: 10px 20px;
+  border: none;
+  background-color: #eeeeee;
+  
+
  }
