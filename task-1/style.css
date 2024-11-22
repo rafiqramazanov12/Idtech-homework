@@ -18,7 +18,7 @@
    
     
 }
-.left{
+.left_box{
     width: 500px;
     height: 500px;
     background-color:#1fbcd2;
@@ -33,7 +33,7 @@
 
    
 }
-.left h3{
+.left_box_title{
     font-size:32px;
     font-weight: 600;
     color: white;
@@ -41,11 +41,11 @@
     font-family: "Roboto", sans-serif;
     
 }
-.left p{
+.left_box_position{
     color: white;
 
 }
-.right{
+.right_box{
     width: 500px;
     height: 500px;
     background-color: white;
@@ -56,14 +56,14 @@
   
 
 }
-.right h2{
+.right_box_title{
     text-align: center;
     font-size: 40px;
     font-family: "Roboto", sans-serif;
     font-weight:900;
 
 }
-.right span{
+.right_box_title_position{
     padding-left: 30px;
     color: black;
     font-size: 14px;
