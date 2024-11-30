@@ -284,6 +284,7 @@ color: #516FD4;
     opacity: 0px;
     color: #516FD4;
 }
+
 .banner_main_first_sixth_btn_one{
     width: 63px;
     height: 22px;
@@ -302,3 +303,14 @@ color: #516FD4;
     opacity: 0px;
     color: #516FD4;
 }
+.banner_main_first_box_width{
+    gap: 10px;
+    width: 350px;
+    height: 208px;
+    background-color: #FBFCFF;
+    gap: 16px;
+    border-radius: 16px;
+    opacity: 0px;
+    display: flex;
+}
+
