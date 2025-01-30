@@ -1,0 +1,98 @@
+@import "./mixins.scss";
+@import "./variables.scss";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+// header start
+.header {
+    margin-inline: 4rem;
+}
+
+.header_navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_navbar_img {
+    width: 20.6rem;
+    height: 10.1rem;
+    margin-top: 2.6rem;
+}
+
+.header_navbar_menu {
+    display: flex;
+    gap: 9.4rem;
+}
+
+.header_navbar_menu_item {
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.8rem;
+
+}
+
+.header_navbar_menu_item_link_diffrent {
+    color: $main_second_color;
+}
+
+.header_navbar_menu_item_link {
+    color: $main_first_color;
+}
+.header_navbar_responsive_logo{
+    display: none;
+}
+// header end
+
+@media screen and (max-width: 76.8rem) {
+
+    html {
+        font-size: 5px;
+
+    }
+
+    body {
+        font-size: 1.6rem;
+    }
+    .header_navbar{
+        align-items: center;
+        display: flex;
+    }
+
+    .header_navbar_menu_item {
+        display: none;
+    }
+
+    .header_navbar_img {
+        width: 10.4rem;
+        height: 5.1rem;
+        display: block;
+
+
+
+    }
+
+
+}

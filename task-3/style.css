@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
     font-family: "Merriweather", serif;
 }
 
@@ -35,6 +37,7 @@ input {
     gap: 8px;
     opacity: 0px;
     border-radius: 8px;
+    border: none;
 
 }
 
@@ -166,12 +169,11 @@ color: #516FD4;
 .shadow{
     box-shadow: 0px 8px 23px 0px #DAE0F9B2;
 }
-.width{
+.banner_main_first_box_width{
     gap: 10px;
     width: 350px;
     height: 208px;
     background-color: #FBFCFF;
-    gap: 16px;
     border-radius: 16px;
     opacity: 0px;
     display: flex;
@@ -303,14 +305,15 @@ color: #516FD4;
     opacity: 0px;
     color: #516FD4;
 }
-.banner_main_first_box_width{
+
+.width{
     gap: 10px;
     width: 350px;
     height: 208px;
     background-color: #FBFCFF;
-    gap: 16px;
     border-radius: 16px;
     opacity: 0px;
     display: flex;
-}
+    margin-left: 20px;
 
+}
