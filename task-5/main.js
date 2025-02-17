@@ -17,10 +17,11 @@
 // }
 // console.log(getSum([1,-2,2,-4]));
 //                5
+
 // function get(arr=[]){
 //     let sum=0;
 //     arr.map((i)=> sum+=i)
-//     return sum/arr.length    
+//     return sum/arr.length
 // }
 // let result=get([10, 100,40])
 // console.log(result)
