@@ -1,6 +1,6 @@
 let timeLeft = 10;
 let countdown;
-const timerElement = document.querySelector(".timer"); // 
+const timerElement = document.querySelector(".timer"); 
 const restartButton = document.querySelector(".restart-btn"); 
 
 function startTimer() {
