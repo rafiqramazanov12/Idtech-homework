@@ -1,4 +1,3 @@
-// src/features/fruits/fruitsSlice.js
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialFruits = ['Alma', 'Banan', 'Portağal', 'Armud', 'Ananas'];
