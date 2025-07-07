@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #222;
+}
+
+.traffic-light {
+  width: 100px;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.light {
+  width: 60px;
+  height: 60px;
+  margin: 15px auto;
+  border-radius: 50%;
+  background-color: #555;
+  transition: background-color 0.5s;
+}
+
+.red.active {
+  background-color: red;
+}
+
+.yellow.active {
+  background-color: yellow;
+}
+
+.green.active {
+  background-color: limegreen;
+}
